@@ -12,10 +12,12 @@ git push -u origin main
 checking the remote 
 git remote -v
 
+git remote remove origin
 
-export GITHUB_USER=MVillate
-export GITHUB_TOKEN='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'
+
+
 
 git remote add origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/MVillate/github_actions.git
 
+git remote add origin https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git
 git remote add origin https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/github_actions.git
