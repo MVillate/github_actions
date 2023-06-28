@@ -36,3 +36,15 @@ git commit -m {{ message }}
 ### Move between commits
 git checkout {{ id }} - Temporarily move to another commit
 git checkout main - To return to the latest commit in main
+
+## Reverting
+git revert {{ id }} 
+This Id is the last change you want to revert from. 
+This will add a new commit identical as the previous to last
+By default it adds a message saying Revert "{{ commit message of the last commit }}"
+It keeps all the commits in the commit history
+
+## Resetting 
+git reset --hard {{ id }}
+This ID is the commit you want to go to, and everything after that will be deleted. 
+This removes part of the history
