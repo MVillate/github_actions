@@ -22,6 +22,7 @@ git push -u, --set-upstream
 ```
 git push -u origin main
 ```
+Once the origin has been linked, it's enough with git push
 
 ## Status of the origin
 git remote -v
