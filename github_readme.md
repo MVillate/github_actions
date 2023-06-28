@@ -7,10 +7,14 @@ git push # this will fail
 ## Adding the origin
 
 For personal repositories
+```
 git remote add origin https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git
+```
 
 For corporate repositories
+```
 git remote add origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_ORGANIZATION}/{GITHUB_REPO}.git
+```
 
 ## Linking the origin with the local branch
 The origin has been added, but not linked to the local branch. To link the origin with the 
