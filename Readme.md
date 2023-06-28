@@ -35,3 +35,4 @@ git commit -m {{ message }}
 
 ### Move between commits
 git checkout {{ id }} - Temporarily move to another commit
+git checkout main - To return to the latest commit in main
