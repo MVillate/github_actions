@@ -48,3 +48,14 @@ It keeps all the commits in the commit history
 git reset --hard {{ id }}
 This ID is the commit you want to go to, and everything after that will be deleted. 
 This removes part of the history
+
+## Branches
+Containers that contain commits
+
+git branch {{ branch_name }} - creates branch
+git branch -D {{ branch_name }} - deletes the branch
+git checkout {{ branch_name }} - moves to the new branch
+
+git checkout -b {{ branch_name } - creates branch and checksout branch}
+
+git branch - Lists the branches
