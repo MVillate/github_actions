@@ -24,8 +24,16 @@ git push -u origin main
 ```
 Once the origin has been linked, it's enough with git push
 
+
 ## Status of the origin
 git remote -v
+git remote get-url origin
 git remote remove origin
+
+## pull
+git pull
+
+## clone
+git clone {{ repo }}
 
 
